@@ -1,0 +1,582 @@
+[2016-06-04 15:01:34] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,,,,,,,,,,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,,,,,,,,,,,,)
+[2016-06-04 15:01:34] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,,,,,,,,,,) order by id desc limit 0,1' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,,,,,,,,,,,,) order by id desc limit 0,1
+[2016-06-04 15:01:34] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,,,,,,,,,,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,,,,,,,,,,,,)
+[2016-06-04 15:01:34] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,,,,,,,,,,) order by  ordering desc limit 0,1' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,,,,,,,,,,,,) order by  ordering desc limit 0,1
+[2016-06-04 15:07:26] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,,,,,,,,,,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,,,,,,,,,,,,)
+[2016-06-04 15:07:26] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,,,,,,,,,,) order by id desc limit 0,1' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,,,,,,,,,,,,) order by id desc limit 0,1
+[2016-06-04 15:07:26] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,,,,,,,,,,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,,,,,,,,,,,,)
+[2016-06-04 15:07:26] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,,,,,,,,,,) order by  ordering desc limit 0,1' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,,,,,,,,,,,,) order by  ordering desc limit 0,1
+[2016-06-04 15:09:18] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:09:18] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:09:18] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:09:18] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:09:37] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:09:37] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:09:37] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:09:37] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:09:41] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:09:41] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:09:41] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:09:41] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:09:42] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:09:42] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:09:42] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:09:42] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:11:42] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:11:42] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:11:42] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:11:42] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:11:57] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:11:57] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:11:57] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:11:57] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:12:25] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:12:25] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,12
+[2016-06-04 15:12:25] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:12:25] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,12
+[2016-06-04 15:12:27] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:12:27] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,12
+[2016-06-04 15:12:27] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:12:27] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,12
+[2016-06-04 15:13:08] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:13:08] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,12
+[2016-06-04 15:13:08] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:13:08] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,12
+[2016-06-04 15:13:09] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:13:09] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,12
+[2016-06-04 15:13:09] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:13:09] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,12
+[2016-06-04 15:13:19] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:13:19] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,12
+[2016-06-04 15:13:44] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:13:44] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,12
+[2016-06-04 15:15:16] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:15:16] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:15:16] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:15:16] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:15:33] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:15:33] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:15:33] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:15:33] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:15:33] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:15:33] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:16:10] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:16:10] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:16:11] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:16:11] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:16:17] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:16:17] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:16:17] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:16:17] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:16:37] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:16:38] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:16:38] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:16:38] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:18:13] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:18:13] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:18:13] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:18:13] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:18:14] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:18:14] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:18:14] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:18:14] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:18:58] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:18:58] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:18:58] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:18:58] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:20:07] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:20:07] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:20:07] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:20:07] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:20:08] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:20:08] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:20:08] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:20:08] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:21:49] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:21:49] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:21:49] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:21:49] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:22:58] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:22:58] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:22:58] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:22:58] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:22:59] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:22:59] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:22:59] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:22:59] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:23:59] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:23:59] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:23:59] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:23:59] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:24:32] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:24:32] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:24:32] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:24:32] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:25:04] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:25:04] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:25:04] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:25:04] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:34:17] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51)
+[2016-06-04 15:34:17] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,40,52,,51) order by id desc limit 0,10
+[2016-06-04 15:34:17] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51)
+[2016-06-04 15:34:17] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '40,52,,51) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,40,52,,51) order by  ordering desc limit 0,10
+[2016-06-04 15:44:27] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,,,)
+[2016-06-04 15:44:27] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,,,) order by id desc limit 0,10
+[2016-06-04 15:44:27] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,,,)
+[2016-06-04 15:44:27] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,,,) order by  ordering desc limit 0,10
+[2016-06-04 15:44:46] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,,,)
+[2016-06-04 15:44:46] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,,,) order by id desc limit 0,10
+[2016-06-04 15:44:46] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,,,)
+[2016-06-04 15:44:46] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,,,) order by  ordering desc limit 0,10
+[2016-06-04 15:47:05] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,,,)
+[2016-06-04 15:47:05] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,,,) order by id desc limit 0,10
+[2016-06-04 15:47:05] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,,,)
+[2016-06-04 15:47:05] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,,,) order by  ordering desc limit 0,10
+[2016-06-04 15:51:36] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,,,)
+[2016-06-04 15:51:36] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,,,) order by id desc limit 0,10
+[2016-06-04 15:51:36] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,,,)
+[2016-06-04 15:51:36] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,,,) order by  ordering desc limit 0,10
+[2016-06-04 16:09:50] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,51,52,)
+[2016-06-04 16:09:50] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,51,52,) order by id desc limit 0,10
+[2016-06-04 16:09:50] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,51,52,)
+[2016-06-04 16:09:50] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,51,52,) order by  ordering desc limit 0,10
+[2016-06-04 16:10:12] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,51,52,)
+[2016-06-04 16:10:12] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,51,52,) order by id desc limit 0,10
+[2016-06-04 16:10:12] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,51,52,)
+[2016-06-04 16:10:12] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,51,52,) order by  ordering desc limit 0,10
+[2016-06-04 16:10:25] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,51,52,)
+[2016-06-04 16:10:25] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,51,52,) order by id desc limit 0,10
+[2016-06-04 16:10:25] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,51,52,)
+[2016-06-04 16:10:25] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,51,52,) order by  ordering desc limit 0,10
+[2016-06-04 16:10:27] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,51,52,)
+[2016-06-04 16:10:27] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,51,52,) order by id desc limit 0,10
+[2016-06-04 16:10:27] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,51,52,)
+[2016-06-04 16:10:27] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,51,52,) order by  ordering desc limit 0,10
+[2016-06-04 16:12:02] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,51,52,)
+[2016-06-04 16:12:02] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,) order by id desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,51,52,) order by id desc limit 0,10
+[2016-06-04 16:12:02] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,51,52,)
+[2016-06-04 16:12:02] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',51,52,) order by  ordering desc limit 0,10' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,51,52,) order by  ordering desc limit 0,10
+[2016-06-04 16:17:07] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,51,52,,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,,51,52,,)
+[2016-06-04 16:17:07] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,51,52,,) order by id desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,,51,52,,) order by id desc limit 0,12
+[2016-06-04 16:17:07] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,51,52,,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,,51,52,,)
+[2016-06-04 16:17:07] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,51,52,,) order by  ordering desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,,51,52,,) order by  ordering desc limit 0,12
+[2016-06-04 16:17:42] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,51,52,,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,,51,52,,)
+[2016-06-04 16:17:42] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,51,52,,) order by id desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,,51,52,,) order by id desc limit 0,12
+[2016-06-04 16:17:42] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,51,52,,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,,51,52,,)
+[2016-06-04 16:17:42] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,51,52,,) order by  ordering desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,,51,52,,) order by  ordering desc limit 0,12
+[2016-06-04 16:17:43] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,51,52,,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,,51,52,,)
+[2016-06-04 16:17:43] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,51,52,,) order by id desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,,,51,52,,) order by id desc limit 0,12
+[2016-06-04 16:17:43] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,51,52,,)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,,51,52,,)
+[2016-06-04 16:17:43] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,51,52,,) order by  ordering desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,,,51,52,,) order by  ordering desc limit 0,12
+[2016-06-04 16:17:59] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '51,5)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,51,5)
+[2016-06-04 16:17:59] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '51,5) order by id desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,51,5) order by id desc limit 0,12
+[2016-06-04 16:17:59] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '51,5)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,51,5)
+[2016-06-04 16:17:59] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '51,5) order by  ordering desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,51,5) order by  ordering desc limit 0,12
+[2016-06-04 16:18:01] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '51,5)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,51,5)
+[2016-06-04 16:18:01] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '51,5) order by id desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,51,5) order by id desc limit 0,12
+[2016-06-04 16:18:01] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '51,5)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,51,5)
+[2016-06-04 16:18:01] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '51,5) order by  ordering desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,51,5) order by  ordering desc limit 0,12
+[2016-06-04 16:18:09] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '51,5)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,51,5)
+[2016-06-04 16:18:09] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '51,5) order by id desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,51,5) order by id desc limit 0,12
+[2016-06-04 16:18:09] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '51,5)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,51,5)
+[2016-06-04 16:18:09] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '51,5) order by  ordering desc limit 0,12' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,51,5) order by  ordering desc limit 0,12
+[2016-06-04 16:58:36] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '39,40,43,48,50,51,52,57,58,59,60,61)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(4,type_ids) and id not in(,39,40,43,48,50,51,52,57,58,59,60,61)
+[2016-06-04 16:58:36] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '39,40,43,48,50,51,52,57,58,59,60,61) order by  ordering desc limit 0,15' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(4,type_ids) and id not in(,39,40,43,48,50,51,52,57,58,59,60,61) order by  ordering desc limit 0,15
+[2016-06-04 16:58:36] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '39,40,43,48,50,51,52,57,58,59,60,61)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,39,40,43,48,50,51,52,57,58,59,60,61)
+[2016-06-04 16:58:36] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '39,40,43,48,50,51,52,57,58,59,60,61) order by  ordering desc limit 0,15' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,39,40,43,48,50,51,52,57,58,59,60,61) order by  ordering desc limit 0,15
+[2016-06-04 16:58:36] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '39,40,43,48,50,51,52,57,58,59,60,61)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(6,type_ids) and id not in(,39,40,43,48,50,51,52,57,58,59,60,61)
+[2016-06-04 16:58:36] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '39,40,43,48,50,51,52,57,58,59,60,61) order by  ordering desc limit 0,15' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(6,type_ids) and id not in(,39,40,43,48,50,51,52,57,58,59,60,61) order by  ordering desc limit 0,15
+[2016-06-04 16:58:44] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '39,40,43,48,50,51,52,57,58,59,60,61)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(4,type_ids) and id not in(,39,40,43,48,50,51,52,57,58,59,60,61)
+[2016-06-04 16:58:44] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '39,40,43,48,50,51,52,57,58,59,60,61) order by  ordering desc limit 0,15' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(4,type_ids) and id not in(,39,40,43,48,50,51,52,57,58,59,60,61) order by  ordering desc limit 0,15
+[2016-06-04 16:58:44] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '39,40,43,48,50,51,52,57,58,59,60,61)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,39,40,43,48,50,51,52,57,58,59,60,61)
+[2016-06-04 16:58:44] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '39,40,43,48,50,51,52,57,58,59,60,61) order by  ordering desc limit 0,15' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,39,40,43,48,50,51,52,57,58,59,60,61) order by  ordering desc limit 0,15
+[2016-06-04 16:58:44] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '39,40,43,48,50,51,52,57,58,59,60,61)' at line 1
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(6,type_ids) and id not in(,39,40,43,48,50,51,52,57,58,59,60,61)
+[2016-06-04 16:58:44] /web/ ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '39,40,43,48,50,51,52,57,58,59,60,61) order by  ordering desc limit 0,15' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(6,type_ids) and id not in(,39,40,43,48,50,51,52,57,58,59,60,61) order by  ordering desc limit 0,15

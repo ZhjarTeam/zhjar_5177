@@ -1,0 +1,12 @@
+[2016-06-06 17:03:08] /web/ ( act=index&op=index ) 
+ERR: Db Error: Unknown column 'type_id' in 'where clause'
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  type_id!=15 and id not in(40,49,58,59,60,39)
+[2016-06-06 17:03:08] /web/ ( act=index&op=index ) 
+ERR: Db Error: Unknown column 'type_id' in 'where clause'
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  type_id!=15 and id not in(40,49,58,59,60,39) order by  ordering desc,id desc limit 0,9
+[2016-06-06 17:04:08] /web/ ( act=index&op=index ) 
+ERR: Db Error: Unknown column 'type_id' in 'where clause'
+SELECT count(*) as count FROM `zhjar`.`jar_links` as `links`  WHERE  type_id !=15 and id not in(40,49,58,59,60,39)
+[2016-06-06 17:04:08] /web/ ( act=index&op=index ) 
+ERR: Db Error: Unknown column 'type_id' in 'where clause'
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  type_id !=15 and id not in(40,49,58,59,60,39) order by  ordering desc,id desc limit 0,9

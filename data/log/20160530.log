@@ -1,0 +1,81 @@
+[2016-05-30 20:01:27] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(Array) order by id desc
+[2016-05-30 20:02:37] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(Array) order by id desc
+[2016-05-30 20:05:02] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(Array) order by id desc
+[2016-05-30 20:05:59] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(Array) order by id desc
+[2016-05-30 20:06:35] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(Array) order by id desc
+[2016-05-30 20:06:38] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(Array) order by id desc
+[2016-05-30 20:07:09] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(Array) order by id desc
+[2016-05-30 20:07:49] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(Array) order by id desc
+[2016-05-30 20:07:50] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(Array) order by id desc
+[2016-05-30 20:27:16] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '9,10) order by id desc' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,9,10) order by id desc
+[2016-05-30 20:27:16] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '9,10) order by  ordering desc' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,9,10) order by  ordering desc
+[2016-05-30 20:27:59] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '9,8,3) order by id desc' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,9,8,3) order by id desc
+[2016-05-30 20:27:59] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '9,8,3) order by  ordering desc' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,9,8,3) order by  ordering desc
+[2016-05-30 20:28:31] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '9,8,3) order by id desc' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(,9,8,3) order by id desc
+[2016-05-30 20:28:31] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '9,8,3) order by  ordering desc' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(,9,8,3) order by  ordering desc
+[2016-05-30 20:54:57] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by id desc' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(12,8,9,4,) order by id desc
+[2016-05-30 20:54:57] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by  ordering desc' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(12,8,9,4,) order by  ordering desc
+[2016-05-30 20:54:58] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by id desc' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(12,8,9,4,) order by id desc
+[2016-05-30 20:54:58] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by  ordering desc' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(12,8,9,4,) order by  ordering desc
+[2016-05-30 20:55:29] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by id desc' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(12,8,9,4,) order by id desc
+[2016-05-30 20:55:29] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by  ordering desc' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(12,8,9,4,) order by  ordering desc
+[2016-05-30 20:56:23] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by id desc' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(12,8,9,4,) order by id desc
+[2016-05-30 20:56:24] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by id desc' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(12,8,9,4,) order by id desc
+[2016-05-30 20:56:57] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by id desc' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(12,8,9,4,) order by id desc
+[2016-05-30 20:56:57] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by  ordering desc' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(12,8,9,4,) order by  ordering desc
+[2016-05-30 20:58:11] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by id desc' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  id in(12,8,9,4,) order by id desc
+[2016-05-30 20:58:11] /web/?act=index&op=index&m=1 ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') order by  ordering desc' at line 1
+SELECT * FROM `zhjar`.`jar_links` as `links`  WHERE  find_in_set(5,type_ids) and id not in(12,8,9,4,) order by  ordering desc

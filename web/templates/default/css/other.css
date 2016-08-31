@@ -1,0 +1,46 @@
+@charset "utf-8";
+.about-left{ float: left; width: 250px;}
+.about-left a{ display: block; height: 50px; background-color: #f5f5f5; font-size: 14px; color: #666; text-align: center; line-height: 50px;}
+.about-left a.hover{ background-color: #eb574b; color: #fff;}
+
+.about-content{ float: right; width: 700px; padding: 20px 25px; border-top: 2px solid #d54e3e;}
+.about-content h1{ margin-bottom: 30px; font-size: 24px;}
+.about-content p{font-size: 15px;}
+
+.other{ margin-top: 70px; width: 100%; background-color: #fff; padding-top: 40px; border-top:1px solid #999;}
+
+.nav{ width: 100%; margin-bottom: 40px; border-top: 2px solid #ff4948; border-bottom: 1px solid #ddd;}
+.nav a{ display: block; float: left; padding: 10px 25px; color: #333;}
+.nav a.hover{ color: #fff!important; background-color: #ff4948;}
+.nav a:hover{ color: #ff4948;}
+
+.list{ float: left; width: 680px;}
+.list li{ position: relative; height: 80px; padding: 15px 20px 15px 10px; border-top: 1px solid #ddd; }
+.list li a img{ width: 120px; height: 80px; margin-right: 10px;}
+.list li a h3{ font-size: 20px; color: #333;}
+.list li a p{ margin-top: 10px; font-size: 12px;}
+.list li span{ position:  absolute; top: 22px; right: 10px; cursor: pointer;}
+
+.list > p{ padding-top: 15px; border-top: 1px solid #ddd; text-align: center; line-height: 28px;}
+.list > p a{ display: inline-block; color: #333; border:1px solid #999; margin-right: 5px; padding: 0 10px; }
+.list > p a.hover{ background-color: #ff4948; border:1px solid #ff4948; color: #fff;}
+
+.other-right{ float: right; width: 280px; padding: 0 10px;}
+.other-right h3{ font-size: 16px; color: #333;}
+.other-right a{ display: block; margin-top: 10px; font-size: 14px; color: #192439;}
+.other-right a:hover{ color: #06a;}
+.other-right a img{ margin: 20px -10px 0; width: 300px;}
+
+.content{ float: left; width: 680px;}
+.content > h1{ margin-bottom: 35px; font-size: 24px; color: #000; font-weight: normal;}
+.content > p{ position: relative; padding-bottom: 8px; font-size: 12px; border-bottom: 1px solid #ddd;}
+.content > p a{ margin-right: 10px; color: #09f;}
+.content > p span{ position: absolute; bottom: 5px; right: 0px; width: 43px; height: 23px; line-height: 23px; color: #2699ea; padding-left: 24px; text-align: center; background: url(../images/click.png); }
+.content .word{ padding-top: 30px;}
+.content .word img{ max-width:100%;}
+
+.about-search{ margin-top: 50px;}
+
+.about-search h3{ margin-bottom: 20px; font-size: 16px;}
+.about-search a{ display: block; float: left; margin-bottom: 5px; width: 33%; font-size: 14px; color: #000;height: 23px; overflow: hidden;}
+.about-search a:hover{ color: #ff4948;}

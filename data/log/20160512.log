@@ -1,0 +1,30 @@
+[2016-05-12 10:41:40] /admin/index.php?act=admin&op=admin ( act=admin&op=admin ) 
+ERR: Db Error: Table 'zhjar.jar_gadmin' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `zhjar`.`jar_admin` AS `admin` LEFT JOIN `zhjar`.`jar_gadmin` AS `gadmin` ON gadmin.gid=admin.admin_gid LIMIT 1  
+[2016-05-12 10:41:40] /admin/index.php?act=admin&op=admin ( act=admin&op=admin ) 
+ERR: Db Error: Table 'zhjar.jar_gadmin' doesn't exist
+SELECT * FROM `zhjar`.`jar_admin` AS `admin` LEFT JOIN `zhjar`.`jar_gadmin` AS `gadmin` ON gadmin.gid=admin.admin_gid LIMIT 0,10  
+[2016-05-12 10:41:53] /admin/index.php?act=admin&op=ajax&branch=check_gadmin_name&gname=11 ( act=admin&op=ajax ) 
+ERR: Db Error: Table 'zhjar.jar_gadmin' doesn't exist
+SELECT * FROM `zhjar`.`jar_gadmin` WHERE ( gname = '11' ) LIMIT 1  
+[2016-05-12 10:41:53] /admin/index.php?act=admin&op=gadmin_add ( act=admin&op=gadmin_add ) 
+ERR: Db Error: Table 'zhjar.jar_gadmin' doesn't exist
+INSERT  INTO `zhjar`.`jar_gadmin` (limits,gname) VALUES ('z59OnKceLmy_e4QlgIysgB8m_6dp6yl84SLhtRKxAa-ceH0gHcZ','11')
+[2016-05-12 10:54:01] /admin/index.php?act=admin&op=admin ( act=admin&op=admin ) 
+ERR: Db Error: Table 'zhjar.jar_gadmin' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `zhjar`.`jar_admin` AS `admin` LEFT JOIN `zhjar`.`jar_gadmin` AS `gadmin` ON gadmin.gid=admin.admin_gid LIMIT 1  
+[2016-05-12 10:54:01] /admin/index.php?act=admin&op=admin ( act=admin&op=admin ) 
+ERR: Db Error: Table 'zhjar.jar_gadmin' doesn't exist
+SELECT * FROM `zhjar`.`jar_admin` AS `admin` LEFT JOIN `zhjar`.`jar_gadmin` AS `gadmin` ON gadmin.gid=admin.admin_gid LIMIT 0,10  
+[2016-05-12 10:54:05] /admin/index.php?act=admin&op=ajax&branch=check_gadmin_name&gname=111 ( act=admin&op=ajax ) 
+ERR: Db Error: Table 'zhjar.jar_gadmin' doesn't exist
+SELECT * FROM `zhjar`.`jar_gadmin` WHERE ( gname = '111' ) LIMIT 1  
+[2016-05-12 10:57:11] /admin/index.php?act=admin&op=admin ( act=admin&op=admin ) 
+ERR: Db Error: Table 'zhjar.jar_gadmin' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `zhjar`.`jar_admin` AS `admin` LEFT JOIN `zhjar`.`jar_gadmin` AS `gadmin` ON gadmin.gid=admin.admin_gid LIMIT 1  
+[2016-05-12 10:57:11] /admin/index.php?act=admin&op=admin ( act=admin&op=admin ) 
+ERR: Db Error: Table 'zhjar.jar_gadmin' doesn't exist
+SELECT * FROM `zhjar`.`jar_admin` AS `admin` LEFT JOIN `zhjar`.`jar_gadmin` AS `gadmin` ON gadmin.gid=admin.admin_gid LIMIT 0,10  
+[2016-05-12 10:57:15] /admin/index.php?act=admin&op=ajax&branch=check_gadmin_name&gname=111 ( act=admin&op=ajax ) 
+ERR: Db Error: Table 'zhjar.jar_gadmin' doesn't exist
+SELECT * FROM `zhjar`.`jar_gadmin` WHERE ( gname = '111' ) LIMIT 1  

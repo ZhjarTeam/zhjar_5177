@@ -1,0 +1,48 @@
+[2016-06-07 10:32:40] /web/?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND (FIND_IN_SET(4,type_ids) OR FIND_IN_SET(5,type_ids) OR FIND_IN_SET(6,type_' at line 3
+SELECT *
+										FROM jar_links
+										WHERE id NOT IN() AND (FIND_IN_SET(4,type_ids) OR FIND_IN_SET(5,type_ids) OR FIND_IN_SET(6,type_ids))
+										LIMIT 15
+[2016-06-07 10:33:59] /web/?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND (FIND_IN_SET(4,type_ids) OR FIND_IN_SET(5,type_ids) OR FIND_IN_SET(6,type_' at line 3
+SELECT *
+										FROM jar_links
+										WHERE id NOT IN() AND (FIND_IN_SET(4,type_ids) OR FIND_IN_SET(5,type_ids) OR FIND_IN_SET(6,type_ids))
+										LIMIT 15
+[2016-06-07 10:34:00] /web/?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND (FIND_IN_SET(4,type_ids) OR FIND_IN_SET(5,type_ids) OR FIND_IN_SET(6,type_' at line 3
+SELECT *
+										FROM jar_links
+										WHERE id NOT IN() AND (FIND_IN_SET(4,type_ids) OR FIND_IN_SET(5,type_ids) OR FIND_IN_SET(6,type_ids))
+										LIMIT 15
+[2016-06-07 10:34:24] /web/?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND (FIND_IN_SET(4,type_ids) OR FIND_IN_SET(5,type_ids) OR FIND_IN_SET(6,type_' at line 3
+SELECT *
+										FROM jar_links
+										WHERE id NOT IN() AND (FIND_IN_SET(4,type_ids) OR FIND_IN_SET(5,type_ids) OR FIND_IN_SET(6,type_ids))
+										LIMIT 15
+[2016-06-07 10:34:36] /web/?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND (FIND_IN_SET(4,type_ids) OR FIND_IN_SET(5,type_ids) OR FIND_IN_SET(6,type_' at line 3
+SELECT *
+										FROM jar_links
+										WHERE id NOT IN() AND (FIND_IN_SET(4,type_ids) OR FIND_IN_SET(5,type_ids) OR FIND_IN_SET(6,type_ids))
+										LIMIT 15
+[2016-06-07 10:38:15] /web/?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id NOT IN(61,60,58)  AND (FIND_IN_SET(4,type_ids) OR FIND_IN_SET(5,type_ids)' at line 3
+SELECT *
+										FROM jar_links
+										WHERE  AND id NOT IN(61,60,58)  AND (FIND_IN_SET(4,type_ids) OR FIND_IN_SET(5,type_ids) OR FIND_IN_SET(6,type_ids))
+										LIMIT 12
+[2016-06-07 10:38:47] /web/?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id NOT IN(61,60,58)  AND (FIND_IN_SET(4,type_ids) OR FIND_IN_SET(5,type_ids)' at line 3
+SELECT *
+										FROM jar_links
+										WHERE  AND id NOT IN(61,60,58)  AND (FIND_IN_SET(4,type_ids) OR FIND_IN_SET(5,type_ids) OR FIND_IN_SET(6,type_ids))
+										LIMIT 12
+[2016-06-07 10:39:04] /web/?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND id NOT IN(61,60,58)  AND (FIND_IN_SET(4,type_ids) OR FIND_IN_SET(5,type_ids)' at line 3
+SELECT *
+										FROM jar_links
+										WHERE  AND id NOT IN(61,60,58)  AND (FIND_IN_SET(4,type_ids) OR FIND_IN_SET(5,type_ids) OR FIND_IN_SET(6,type_ids))
+										LIMIT 12

@@ -1,0 +1,66 @@
+[2016-05-29 15:17:02] /web/?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: Table 'zhjar.jar_seo' doesn't exist
+SELECT * FROM `zhjar`.`jar_seo` 
+[2016-05-29 15:17:03] /web/?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: Table 'zhjar.jar_seo' doesn't exist
+SELECT * FROM `zhjar`.`jar_seo` 
+[2016-05-29 15:18:15] /web/?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: Table 'zhjar.jar_seo' doesn't exist
+SELECT * FROM `zhjar`.`jar_seo` 
+[2016-05-29 15:18:26] /web/?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: Table 'zhjar.jar_seo' doesn't exist
+SELECT * FROM `zhjar`.`jar_seo` 
+[2016-05-29 15:18:27] /web/?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: Table 'zhjar.jar_seo' doesn't exist
+SELECT * FROM `zhjar`.`jar_seo` 
+[2016-05-29 15:18:27] /web/?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: Table 'zhjar.jar_seo' doesn't exist
+SELECT * FROM `zhjar`.`jar_seo` 
+[2016-05-29 15:19:00] /web/?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: Table 'zhjar.jar_seo' doesn't exist
+SELECT * FROM `zhjar`.`jar_seo` 
+[2016-05-29 15:19:00] /web/?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: Table 'zhjar.jar_seo' doesn't exist
+SELECT * FROM `zhjar`.`jar_seo` 
+[2016-05-29 15:19:01] /web/?act=index&op=index ( act=index&op=index ) 
+ERR: Db Error: Table 'zhjar.jar_seo' doesn't exist
+SELECT * FROM `zhjar`.`jar_seo` 
+[2016-05-29 16:59:03] /admin/index.php?act=article&op=edit&article_id=3 ( act=article&op=edit ) 
+ERR: Db Error: Unknown column 'name' in 'field list'
+UPDATE `zhjar`.`jar_article` AS `article` SET id = '3', name = '', start_time = '', end_time = '', description = '', limit_num = '0'  WHERE  id = '3'
+[2016-05-29 17:44:34] /admin/index.php?act=links&op=add ( act=links&op=add ) 
+ERR: Db Error: Unknown column 'content' in 'field list'
+INSERT INTO `zhjar`.`jar_links` (`title`,`color`,`content`,`ordering`,`views`,`input_time`) VALUES('bbbbbb','#005AB5','','100','10000','2016-05-29 17:44:34')
+[2016-05-29 18:07:26] /admin/index.php?act=links&op=edit&links_id=1 ( act=links&op=edit ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc = 'fdfddf'  WHERE  id = '1'' at line 1
+UPDATE `zhjar`.`jar_links` AS `links` SET id = '1', title = 'bbbbbb11', color = 'red', ordering = '1001', views = '100001', desc = 'fdfddf'  WHERE  id = '1'
+[2016-05-29 18:08:07] /admin/index.php?act=links&op=edit&links_id=1 ( act=links&op=edit ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc = 'fddfdfdf'  WHERE  id = '1'' at line 1
+UPDATE `zhjar`.`jar_links` AS `links` SET id = '1', title = 'bbbbbb11', color = 'red11', ordering = '1001', views = '100001', desc = 'fddfdfdf'  WHERE  id = '1'
+[2016-05-29 18:08:43] /admin/index.php?act=links&op=edit&links_id=1 ( act=links&op=edit ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc = 'fdfffd'  WHERE  id = '1'' at line 1
+UPDATE `zhjar`.`jar_links` AS `links` SET id = '1', title = 'bbbbbb11', color = 'red', ordering = '1001', views = '100001', desc = 'fdfffd'  WHERE  id = '1'
+[2016-05-29 18:35:49] /admin/index.php?act=weixin&op=add ( act=weixin&op=add ) 
+ERR: Db Error: Unknown column 'title' in 'field list'
+INSERT INTO `zhjar`.`jar_weixin` (`title`,`color`,`description`,`ordering`,`views`,`input_time`) VALUES('dfddfdf','#EA0000','fdffdf','111','222','2016-05-29 18:35:49')
+[2016-05-29 18:36:28] /admin/index.php?act=weixin&op=add ( act=weixin&op=add ) 
+ERR: Db Error: Unknown column 'color' in 'field list'
+INSERT INTO `zhjar`.`jar_weixin` (`name`,`color`,`description`,`ordering`,`views`,`input_time`) VALUES('dfddfdf','#EA0000','fdffddf','111','222','2016-05-29 18:36:28')
+[2016-05-29 18:37:31] /admin/index.php?act=weixin&op=add ( act=weixin&op=add ) 
+ERR: Db Error: Unknown column 'views' in 'field list'
+INSERT INTO `zhjar`.`jar_weixin` (`name`,`color`,`description`,`ordering`,`views`,`input_time`) VALUES('dfddfdf','#EA0000','fdffd','111','222','2016-05-29 18:37:31')
+[2016-05-29 19:10:13] /admin/index.php?act=links&op=add ( act=links&op=add ) 
+ERR: Db Error: Unknown column 'desc' in 'field list'
+INSERT INTO `zhjar`.`jar_links` (`title`,`link_url`,`color`,`ordering`,`views`,`desc`,`input_time`) VALUES('bbbbbb','https://www.baidu.com/','#005AB5','','0','','2016-05-29 19:10:13')
+[2016-05-29 19:10:55] /admin/index.php?act=links&op=add ( act=links&op=add ) 
+ERR: Db Error: Unknown column 'desc' in 'field list'
+INSERT INTO `zhjar`.`jar_links` (`title`,`link_url`,`color`,`ordering`,`views`,`desc`,`input_time`) VALUES('bbbbbb','https://www.baidu.com/','','','0','','2016-05-29 19:10:55')
+[2016-05-29 19:12:41] /admin/index.php?act=links&op=add ( act=links&op=add ) 
+ERR: Db Error: Unknown column 'desc' in 'field list'
+INSERT INTO `zhjar`.`jar_links` (`title`,`link_url`,`color`,`ordering`,`views`,`desc`,`input_time`) VALUES('bbbbbb','https://www.baidu.com/','','','0','','2016-05-29 19:12:41')
+[2016-05-29 19:12:52] /admin/index.php?act=links&op=add ( act=links&op=add ) 
+ERR: Db Error: Unknown column 'desc' in 'field list'
+INSERT INTO `zhjar`.`jar_links` (`title`,`link_url`,`color`,`ordering`,`views`,`desc`,`input_time`) VALUES('bbbbbb','https://www.baidu.com/','','','0','','2016-05-29 19:12:52')
+[2016-05-29 21:19:53] /admin/index.php?act=menu&op=add ( act=menu&op=add ) 
+ERR: Db Error: Unknown column 'title' in 'field list'
+INSERT INTO `zhjar`.`jar_menu` (`title`,`link_url`,`ordering`,`status`,`input_time`) VALUES('首页','/','','0','2016-05-29 21:19:53')
