@@ -3,11 +3,11 @@
 // defined('InShopNC') or exit('Access Invalid!');
 
 $config = array();
-$config['web_site_url'] 		= 'http://localhost:81';
-$config['admin_site_url'] 		= 'http://localhost/admin/';
+$config['web_site_url'] 		= '/web';
+$config['admin_site_url'] 		= '/admin';
 $config['node_site_url'] 		= 'http://192.168.3.50:8090';
-$config['upload_site_url']		= 'http://localhost:82/upload';
-$config['resource_site_url']	= 'http://localhost/data/resource';
+$config['upload_site_url']		= '/data/upload';
+$config['resource_site_url']	= '/data/resource';
 
 $config['version'] 		= '201405154774';
 $config['setup_date'] 	= '2014-11-27 10:50:15';
@@ -39,7 +39,7 @@ $config['default_store_id'] = '1';
 $config['url_model'] = true;
 $config['subdomain_suffix'] = '';
 $config['node_chat'] = true;
-//流量记录表数量，为1~10之间的数字，默认为3，数字设置完成后请不要轻易修改，否则可能造成流量统计功能数据错误
+//娴侀噺璁板綍琛ㄦ暟閲忥紝涓�~10涔嬮棿鐨勬暟瀛楋紝榛樿涓�锛屾暟瀛楄缃畬鎴愬悗璇蜂笉瑕佽交鏄撲慨鏀癸紝鍚﹀垯鍙兘閫犳垚娴侀噺缁熻鍔熻兘鏁版嵁閿欒
 $config['flowstat_tablenum'] = 3;
 $config['sms']['gwUrl'] = 'http://sdkhttp.eucp.b2m.cn/sdk/SDKService';
 $config['sms']['serialNumber'] = '';
