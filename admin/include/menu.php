@@ -39,6 +39,8 @@ $arr = array(
 							array('args'=>'index,news,zhjar',			'text'=>'新闻管理'),
 							array('args'=>'index,links,zhjar',			'text'=>'链接管理'),
 							array('args'=>'index,weixin,zhjar',			'text'=>'公众号管理'),
+							array('args'=>'index,video,zhjar',			'text'=>'视频管理'),
+							array('args'=>'index,trend,zhjar',			'text'=>'走势管理'),
 					)
 			),
 		),

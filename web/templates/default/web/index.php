@@ -5,6 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="<?php echo $output['seo']['keyword']?>" />
 <meta name="description" content="<?php echo $output['seo']['desc']?>" />
+<meta http-equiv="X-UA-Compatible" content="IE=8">
 <title><?php echo $output['seo']['title']?></title>
 <link href="<?php echo WEB_TEMPLATES_URL;?>/css/reset.css?v=20160807" rel="stylesheet" type="text/css" />
 <link href="<?php echo WEB_TEMPLATES_URL;?>/css/base.css?v=20160807" rel="stylesheet" type="text/css" />
@@ -63,6 +64,100 @@
       </div>
     </div>
     <div class="clearfix"></div>
+    <div class="trend">
+      <h2>彩票走势
+        <ul>
+          <li class="cur">福彩</li>
+          <li>体彩</li>
+          <li>足彩</li>
+        </ul>
+      </h2>
+      <div class="trend-box">
+        <div class="trend-list">
+          <h3>双色球</h3>
+          <a href="<?php echo $output['trend_list_fc_left'][0]['link_url']?>"><img src="<?php echo $output['trend_list_fc_left'][0]['upload_path']?>"></a>
+          <div>
+            <?php if(!empty($output['trend_list_fc_left']) && is_array($output['trend_list_fc_left'])){ ?>
+              <?php foreach($output['trend_list_fc_left'] as $k => $info){ ?>
+              <a class="txtover" href="<?php echo $info['link_url']?>" target="_blank">
+                <font color=<?php echo $info['color']?>""><?php echo $info['name']?></font>
+              </a>
+              <?php } ?>
+            <?php } ?>
+          </div>
+        </div>
+        <div class="trend-list">
+          <h3>福彩3D</h3>
+          <a href="<?php echo $output['trend_list_fc_right'][0]['link_url']?>"><img src="<?php echo $output['trend_list_fc_right'][0]['upload_path']?>"></a>
+          <div>
+            <?php if(!empty($output['trend_list_fc_right']) && is_array($output['trend_list_fc_right'])){ ?>
+              <?php foreach($output['trend_list_fc_right'] as $k => $info){ ?>
+              <a class="txtover" href="<?php echo $info['link_url']?>" target="_blank">
+                <font color=<?php echo $info['color']?>""><?php echo $info['name']?></font>
+              </a>
+              <?php } ?>
+            <?php } ?>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="trend-box" style="display:none">
+        <div class="trend-list">
+          <h3>体彩左</h3>
+          <a><img src="<?php echo $output['trend_list_tc_left'][0]['upload_path']?>"></a>
+          <div>
+            <?php if(!empty($output['trend_list_tc_left']) && is_array($output['trend_list_tc_left'])){ ?>
+              <?php foreach($output['trend_list_tc_left'] as $k => $info){ ?>
+              <a class="txtover" href="<?php echo $info['link_url']?>" target="_blank">
+                <font color=<?php echo $info['color']?>""><?php echo $info['name']?></font>
+              </a>
+              <?php } ?>
+            <?php } ?>
+          </div>
+        </div>
+        <div class="trend-list">
+          <h3>体彩右</h3>
+          <a><img src="<?php echo $output['trend_list_tc_right'][0]['upload_path']?>"></a>
+          <div>
+            <?php if(!empty($output['trend_list_tc_right']) && is_array($output['trend_list_tc_right'])){ ?>
+              <?php foreach($output['trend_list_tc_right'] as $k => $info){ ?>
+              <a class="txtover" href="<?php echo $info['link_url']?>" target="_blank">
+                <font color=<?php echo $info['color']?>""><?php echo $info['name']?></font>
+              </a>
+              <?php } ?>
+            <?php } ?>
+          </div>
+        </div>
+      </div>
+      <div class="trend-box" style="display:none">
+        <div class="trend-list">
+          <h3>足彩左</h3>
+          <a><img src="<?php echo $output['trend_list_zc_left'][0]['upload_path']?>"></a>
+          <div>
+            <?php if(!empty($output['trend_list_zc_left']) && is_array($output['trend_list_zc_left'])){ ?>
+              <?php foreach($output['trend_list_zc_left'] as $k => $info){ ?>
+              <a class="txtover" href="<?php echo $info['link_url']?>" target="_blank">
+                <font color=<?php echo $info['color']?>""><?php echo $info['name']?></font>
+              </a>
+              <?php } ?>
+            <?php } ?>
+          </div>
+        </div>
+        <div class="trend-list">
+          <h3>足彩右</h3>
+          <a><img src="<?php echo $output['trend_list_zc_right'][0]['upload_path']?>"></a>
+          <div>
+            <?php if(!empty($output['trend_list_zc_right']) && is_array($output['trend_list_zc_right'])){ ?>
+              <?php foreach($output['trend_list_zc_right'] as $k => $info){ ?>
+              <a class="txtover" href="<?php echo $info['link_url']?>" target="_blank">
+                <font color=<?php echo $info['color']?>""><?php echo $info['name']?></font>
+              </a>
+              <?php } ?>
+            <?php } ?>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="site-list">
       <ul class="icon-site clearfix">
         <?php if(!empty($output['use_links_list']) && is_array($output['use_links_list'])){ ?>
@@ -76,17 +171,18 @@
         </li>
         <?php } ?>
         <?php } ?>
+        <img src="/web/templates/default/images/lottery.png">
       </ul>
-      <ul class="word-site clearfix">
+      <!--<ul class="word-site clearfix">
         <?php if(!empty($output['hot_links_list']) && is_array($output['hot_links_list'])){ ?>
         <?php foreach($output['hot_links_list'] as $k => $info){ ?>
         <li><a href="<?php echo $info['link_url']?>" target="_blank"><?php echo $info['title']?></a></li>
         <?php } ?>
         <?php } ?>
-      </ul>
+      </ul>-->
       <a id="set-site"><img src="<?php echo WEB_TEMPLATES_URL;?>/images/set.png" alt="管理常用网址"></a>
-      <div class="set-site"
->        <p class="title">
+      <div class="set-site">        
+        <p class="title">
           管理常用网址
           <span>X</span>
         </p>
@@ -162,22 +258,127 @@
       </div>
       <div class="mask"></div>
     </div>
-    <div class="public-wx">
-    	<ul>
-        <?php if(!empty($output['weixin_list']) && is_array($output['weixin_list'])){ ?>
-        <?php foreach($output['weixin_list'] as $k => $info){ ?>
-    		<li>
-    			<a><?php echo $info['name']?></a>
-    			<div>
-					<p><?php echo $info['description']?></p>
-					<img src="<?php echo $info['upload_path']?>">
-				</div>
-    		</li>
+    <div class="video">
+      <h2>彩票视频
+        <ul>
+          <li class="cur">福彩</li>
+          <li>体彩</li>
+          <li>篮球</li>
+          <li>足球</li>
+        </ul>
+      </h2>
+      <div class="video-list">
+        <?php if(!empty($output['video_list_fc']) && is_array($output['video_list_fc'])){ ?>
+          <a href="<?php echo $output['video_list_fc'][0]['link_url']?>">
+            <img src="<?php echo $output['video_list_fc'][0]['upload_path']?>">
+            <p class="txtover"><?php echo $output['video_list_fc'][0]['name']?><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo substr($output['video_list_fc'][0]['input_time'],0,10)?></p>
+          </a>
+          <ul>
+            <?php foreach($output['video_list_fc'] as $k => $info){?>
+              <?php if($k == 1){ ?>
+                  <a href="<?php echo $info['link_url']?>">
+                    <img src="<?php echo $info['upload_path']?>">
+                    <p class="txtover"><?php echo $info['name']?></p>
+                  </a>
+              <?php }else if($k%2 == 1 && $k != 1){ ?>
+                  <li><a class="txtover" href="<?php echo $info['link_url']?>"><?php echo $info['name']?></a></li>
+              <?php } ?>
+            <?php } ?>
+          </ul>
+          <ul>
+            <?php foreach($output['video_list_fc'] as $k => $info){?>
+              <?php if($k == 2){ ?>
+                  <a href="<?php echo $info['link_url']?>">
+                    <img src="<?php echo $info['upload_path']?>">
+                    <p class="txtover"><?php echo $info['name']?></p>
+                  </a>
+              <?php }else if($k%2 == 0 && $k != 1 && $k != 0){ ?>
+                  <li><a class="txtover" href="<?php echo $info['link_url']?>"><?php echo $info['name']?></a></li>
+              <?php } ?>
+            <?php } ?>
+          </ul>
         <?php } ?>
+      </div>
+      <div class="video-list" style="display: none">
+        <?php if(!empty($output['video_list_tc']) && is_array($output['video_list_tc'])){ ?>
+          <a href="<?php echo $output['video_list_tc'][0]['link_url']?>">
+            <img src="<?php echo $output['video_list_tc'][0]['upload_path']?>">
+            <p class="txtover"><?php echo $output['video_list_tc'][0]['name']?><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo substr($output['video_list_tc'][0]['input_time'],0,10)?></p>
+          </a>
+          <ul>
+            <?php foreach($output['video_list_tc'] as $k => $info){?>
+              <?php if($k == 1){ ?>
+                  <a href="<?php echo $info['link_url']?>">
+                    <img src="<?php echo $info['upload_path']?>">
+                    <p class="txtover"><?php echo $info['name']?></p>
+                  </a>
+              <?php }else if($k%2 == 1 && $k != 1){ ?>
+                  <li><a class="txtover" href="<?php echo $info['link_url']?>"><?php echo $info['name']?></a></li>
+              <?php } ?>
+            <?php } ?>
+          </ul>
+          <ul>
+            <?php foreach($output['video_list_tc'] as $k => $info){?>
+              <?php if($k == 2){ ?>
+                  <a href="<?php echo $info['link_url']?>">
+                    <img src="<?php echo $info['upload_path']?>">
+                    <p class="txtover"><?php echo $info['name']?></p>
+                  </a>
+              <?php }else if($k%2 == 0 && $k != 1 && $k != 0){ ?>
+                  <li><a class="txtover" href="<?php echo $info['link_url']?>"><?php echo $info['name']?></a></li>
+              <?php } ?>
+            <?php } ?>
+          </ul>
         <?php } ?>
-
-    	</ul>
-    	<img src="<?php echo WEB_TEMPLATES_URL;?>/images/Group3.png">
+      </div>
+      <div class="video-list-ball" style="display: none">
+        <?php if(!empty($output['video_list_lq']) && is_array($output['video_list_lq'])){ ?>
+          <?php foreach($output['video_list_lq'] as $k => $info){?>
+            <?php if($k == 0){ ?>
+              <a href="<?php echo $info['link_url']?>">
+                <img src="<?php echo $info['upload_path']?>">
+                <div><img src="<?php echo $info['left_img_list']?>"><p><?php echo $info['team_left']?></p></div>
+                <span></span>
+                <div><img src="<?php echo $info['right_img_list']?>"><p><?php echo $info['team_right']?></p></div>
+              </a>
+              <ul>
+            <?php }else{ ?>
+                <li>
+                  <a href="<?php echo $info['link_url']?>">
+                    <div><img src="<?php echo $info['left_img_list']?>"><p><?php echo $info['team_left']?></p></div>
+                    <span><?php echo $info['time']?></span>
+                    <div><img src="<?php echo $info['right_img_list']?>"><p><?php echo $info['team_right']?></p></div>
+                  </a>
+                </li>
+            <?php } ?>
+          <?php } ?>
+             </ul>
+        <?php } ?>
+      </div>
+      <div class="video-list-ball" style="display: none">
+        <?php if(!empty($output['video_list_lq']) && is_array($output['video_list_zq'])){ ?>
+          <?php foreach($output['video_list_zq'] as $k => $info){?>
+            <?php if($k == 0){ ?>
+              <a href="<?php echo $info['link_url']?>">
+                <img src="<?php echo $info['upload_path']?>">
+                <div><img src="<?php echo $info['left_img_list']?>"><p><?php echo $info['team_left']?></p></div>
+                <span></span>
+                <div><img src="<?php echo $info['right_img_list']?>"><p><?php echo $info['team_right']?></p></div>
+              </a>
+              <ul>
+            <?php }else{ ?>
+                <li>
+                  <a href="<?php echo $info['link_url']?>">
+                    <div><img src="<?php echo $info['left_img_list']?>"><p><?php echo $info['team_left']?></p></div>
+                    <span><?php echo $info['time']?></span>
+                    <div><img src="<?php echo $info['right_img_list']?>"><p><?php echo $info['team_right']?></p></div>
+                  </a>
+                </li>
+            <?php } ?>
+          <?php } ?>
+             </ul>
+        <?php } ?>
+      </div>
     </div>
     <div class="sq clearfix">
     	<h2>社区精华</h2>
@@ -325,7 +526,7 @@
         <?php } ?>
   			<?php if(!empty($output['nice_info']) && is_array($output['nice_info'])){ ?>
         <li>
-          <p class="title"><strong>福彩好彩</strong><?php echo $output['nice_info']['ISSUE_NAME']?>期<span><?php echo $output['nice_info']['date']?></span></p>
+          <p class="title"><strong>好彩一</strong><?php echo $output['nice_info']['ISSUE_NAME']?>期<span><?php echo $output['nice_info']['date']?></span></p>
           <p class="content"><?php echo $output['nice_info']['numbers']?></p>
           <!-- <p class="other"><a href="#">详情</a>|<a href="#">走势</a>|<a href="#">分析</a></p> -->
         </li>
@@ -401,7 +602,25 @@
       <?php } ?>
       <?php } ?>
     </ul>
+    <h3>公众号</h3>
+    <div class="public-wx">
+      <ul>
+        <?php if(!empty($output['weixin_list']) && is_array($output['weixin_list'])){ ?>
+        <?php foreach($output['weixin_list'] as $k => $info){ ?>
+        <li>
+          <a <?php if($info['hot'] == 1) echo 'class="hot"';?> ><?php echo $info['name']?></a>
+          <div>
+          <p><?php echo $info['description']?></p>
+          <img src="<?php echo $info['upload_path']?>">
+        </div>
+        </li>
+        <?php } ?>
+        <?php } ?>
+
+      </ul>
+    </div>
   </div>
+
 </div>
 
 
@@ -452,17 +671,12 @@
     $(".set-site,.mask").hide();
   });
 
-  $.each($(".public-wx").find("a"),function(){
-  	var left = $(this).parent().position().left + 105;
-  	$(this).next().css("left",left);
-  });
-
-  $(".public-wx").find("a").hover(function(){
-  	$(".public-wx").find("a").removeClass("hover");
+  $(".public-wx").find("li").hover(function(){
+  	$(".public-wx").find("li").removeClass("hover");
   	$(this).addClass("hover");
   },function(){
   	$(this).parent().mouseleave(function(){
-  		$(this).find("a").removeClass("hover");
+  		$(this).find("li").removeClass("hover");
   	});
   });
 
@@ -479,8 +693,37 @@
   	$(this).addClass("cur");
   	var index = 2-$(this).index();
   	$(".lottery ul").hide().eq(index).show();
-  })
+  });
 
+  $('.trend > h2 > ul > li').click(function(){
+    var num = $(this).index();
+    $(this).siblings().removeClass('cur');
+    $(this).addClass('cur');
+    $('.trend-box').hide();
+    $('.trend-box').eq(num).show();
+  });
+
+  $('.video > h2 > ul > li').click(function(){
+    var num = $(this).index();
+    $(this).siblings().removeClass('cur');
+    $(this).addClass('cur');
+    $('.video > div').hide();
+    $('.video > div').eq(num).show();
+  });
+
+  $('.public-wx').find('li').each(function(idx,item){
+    if(idx%3 == 1){
+      $(this).addClass('abcenter');
+    }else if(idx%3 == 2){
+      $(this).addClass('abright');
+    }
+    if(idx > 11){
+      $(this).addClass('turn');
+    }
+  });
+
+  $('.video-list-ball ul li').eq(4).css('border','none');
+  $('.video-list-ball ul li').eq(5).css('border','none');
 
 var select_ids = "<?php echo $output['select_ids'];?>";
 
@@ -550,6 +793,7 @@ var isSumbit = false;
 $('#add-site').click(function(){
   var siteName = $('#siteName').val();
   var siteUrl = $('#siteUrl').val();
+  var locationUrl = window.location.href;
 
   if (siteUrl==''||siteName=='') {
     alert('请填写完整信息');
@@ -563,7 +807,7 @@ $('#add-site').click(function(){
   if (isSumbit) { return false};
   isSumbit = true;
 
-  $.post("<?php echo WEB_SITE_URL;?>?act=links&op=add",{'siteName':siteName,'siteUrl':siteUrl},function(result){
+  $.post(locationUrl+"?act=links&op=add",{'siteName':siteName,'siteUrl':siteUrl},function(result){
       var jsonobj=eval('('+result+')');
       if(jsonobj.status=="1"){
         var id = jsonobj.custom;

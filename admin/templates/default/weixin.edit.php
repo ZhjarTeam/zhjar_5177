@@ -68,6 +68,15 @@
               <?php } ?>
             </ul></td>
         </tr>
+        <tr>
+          <td colspan="2" class="required">推荐:</td>
+        </tr>
+        <tr class="noborder">
+          <td class="vatop rowform">
+            <input type="radio" name="weixin_hot" value="0" <?php if($output['weixin_array']['hot'] == 0) echo 'checked="checked"';?> >否
+            <input type="radio" name="weixin_hot" value="1" <?php if($output['weixin_array']['hot'] == 1) echo 'checked="checked"';?> >是
+          </td>
+        </tr>
       </tbody>
       <tfoot>
         <tr class="tfoot">

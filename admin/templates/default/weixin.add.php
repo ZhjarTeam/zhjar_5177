@@ -67,6 +67,15 @@
               
           </div></td>
         </tr>
+        <tr>
+          <td colspan="2" class="required">推荐:</td>
+        </tr>
+        <tr class="noborder">
+          <td class="vatop rowform">
+            <input type="radio" name="weixin_hot" value="0" checked="checked">否
+            <input type="radio" name="weixin_hot" value="1">是
+          </td>
+        </tr>
       </tbody>
       <tfoot>
         <tr class="tfoot">

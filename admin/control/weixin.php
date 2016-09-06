@@ -116,6 +116,7 @@ class weixinControl extends SystemControl{
 				$insert_array['description'] = trim($_POST['weixin_desc']);
 				$insert_array['ordering'] = trim($_POST['weixin_ordering']);
 				$insert_array['input_time'] = curtime_format();
+				$insert_array['hot'] = trim($_POST['weixin_hot']);
 				$result = $model_weixin->add($insert_array);
 				if ($result){
 					/**
@@ -184,7 +185,7 @@ class weixinControl extends SystemControl{
 				$update_array['color'] = trim($_POST['weixin_color']);
 				$update_array['description'] = trim($_POST['weixin_desc']);
 				$update_array['ordering'] = trim($_POST['weixin_ordering']);
-
+				$update_array['hot'] = trim($_POST['weixin_hot']);
 				$result = $model_weixin->update($update_array);
 				if ($result){
 					/**

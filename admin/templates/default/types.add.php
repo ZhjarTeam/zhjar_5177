@@ -37,7 +37,7 @@
           <td colspan="2"><label>排序:</label></td>
         </tr>
         <tr class="noborder">
-          <td class="vatop rowform"><input type="text" value="" name="menu_ordering" id="menu_ordering" class="txt"></td>
+          <td class="vatop rowform"><input type="text" value="" name="types_ordering" id="types_ordering" class="txt"></td>
           <td class="vatop tips">排序越大，越靠前</td>
         </tr>
       </tbody>

@@ -36,6 +36,8 @@ define('ATTACH_COMMON','common');
 define('ATTACH_WEIXIN','weixin');
 define('ATTACH_NEWS','news');
 define('ATTACH_LINKS','links');
+define('ATTACH_VIDEO','video');
+define('ATTACH_TREND','trend');
 define('TPL_ADMIN_NAME', 'default');
 
 

@@ -24,7 +24,7 @@ class indexControl extends BaseHomeControl{
 		/*
 		 * 新闻
 		 */
-		$page->setEachNum(6);
+		$page->setEachNum(8);
 		$news_list = $model_news->getList(array('type_id'=>1,'order'=>'input_time desc'),$page);
 		Tpl::output('hot_news_list',$news_list);
 		
@@ -38,7 +38,7 @@ class indexControl extends BaseHomeControl{
 		
 		//网址收藏
 		$select_ids = isset($_COOKIE['select_ids'])?$_COOKIE['select_ids']:'';
-		$query_num = 10;
+		$query_num = 15;
 		$select_list = array();
 		if (!empty($select_ids)) {
 			$ids_arr = explode(',', $select_ids);
@@ -127,10 +127,49 @@ class indexControl extends BaseHomeControl{
 		/*
 		 * 公众号
 		 */
-		$page->setEachNum(20);
+		$page->setEachNum(21);
 		$model_weixin = Model('weixin');
 		$weixin_list = $model_weixin->getList(array(),$page);
 		Tpl::output('weixin_list',$this->getWeixins($weixin_list));
+
+		/*
+		 * 走势
+		 */
+		$page->setEachNum(4);
+		$model_trend = Model('trend');
+		$trend_list_fc_left = $model_trend->getList(array('type'=>1,'child_type'=>1,'order'=>$order),$page);
+		$trend_list_fc_right = $model_trend->getList(array('type'=>1,'child_type'=>2,'order'=>$order),$page);
+		$trend_list_tc_left = $model_trend->getList(array('type'=>2,'child_type'=>1,'order'=>$order),$page);
+		$trend_list_tc_right = $model_trend->getList(array('type'=>2,'child_type'=>2,'order'=>$order),$page);
+		$trend_list_zc_left = $model_trend->getList(array('type'=>3,'child_type'=>1,'order'=>$order),$page);
+		$trend_list_zc_right = $model_trend->getList(array('type'=>3,'child_type'=>2,'order'=>$order),$page);
+
+		Tpl::output('trend_list_fc_left',$this->getTrends($trend_list_fc_left));
+		Tpl::output('trend_list_fc_right',$this->getTrends($trend_list_fc_right));
+		Tpl::output('trend_list_tc_left',$this->getTrends($trend_list_tc_left));
+		Tpl::output('trend_list_tc_right',$this->getTrends($trend_list_tc_right));
+		Tpl::output('trend_list_zc_left',$this->getTrends($trend_list_zc_left));
+		Tpl::output('trend_list_zc_right',$this->getTrends($trend_list_zc_right));
+
+		/*
+		 * 视频
+		 */
+		$page->setEachNum(13);
+		$model_video = Model('video');
+
+		$video_list_fc = $model_video->getList(array('type'=>1,'order'=>$order),$page);
+		$video_list_tc = $model_video->getList(array('type'=>2,'order'=>$order),$page);
+
+		$page->setEachNum(7);
+		
+		$video_list_lq = $model_video->getList(array('type'=>3,'order'=>$order),$page);
+		$video_list_zq = $model_video->getList(array('type'=>4,'order'=>$order),$page);
+
+		Tpl::output('video_list_fc',$this->getVideos($video_list_fc));
+		Tpl::output('video_list_tc',$this->getVideos($video_list_tc));
+		Tpl::output('video_list_lq',$this->getVideos($video_list_lq));
+		Tpl::output('video_list_zq',$this->getVideos($video_list_zq));
+
 		
 		/*
 		 * 幻灯片
@@ -267,4 +306,70 @@ class indexControl extends BaseHomeControl{
 		
 // 		var_dump ($arr['results']);
 	}
+
+	/**
+	 * 视频
+	 */
+
+	private function getVideos($video_list) {
+		$model_upload = Model('upload');
+		if (count($video_list)>0) {
+			foreach ($video_list as $key => $video_info) {
+				$condition1['upload_type'] = '3';
+				$condition1['item_id'] = $video_info['id'];
+				$upload_list = $model_upload->getUploadList($condition1);
+				if (is_array($upload_list)){
+					foreach ($upload_list as $k => $v){
+						$upload_list[$k]['upload_path'] = UPLOAD_SITE_URL.'/'.ATTACH_VIDEO.'/'.$upload_list[$k]['file_name'];
+					}
+				}
+				if ($video_info['type'] == 3 || $video_info['type'] == 4){
+					$left_img['upload_type'] = '4';
+					$left_img['item_id'] = $video_info['id'];
+					$left_img_list = $model_upload->getUploadList($left_img);
+					if (is_array($left_img_list)){
+						foreach ($left_img_list as $k => $v){
+							$left_img_list[$k]['upload_path'] = UPLOAD_SITE_URL.'/'.ATTACH_VIDEO.'/'.$left_img_list[$k]['file_name'];
+						}
+					}
+					$right_img['upload_type'] = '5';
+					$right_img['item_id'] = $video_info['id'];
+					$right_img_list = $model_upload->getUploadList($right_img);
+					if (is_array($right_img_list)){
+						foreach ($right_img_list as $k => $v){
+							$right_img_list[$k]['upload_path'] = UPLOAD_SITE_URL.'/'.ATTACH_VIDEO.'/'.$right_img_list[$k]['file_name'];
+						}
+					}
+					$video_list[$key]['left_img_list'] = count($left_img_list)>0?$left_img_list[0]['upload_path']:'';
+					$video_list[$key]['right_img_list'] = count($right_img_list)>0?$right_img_list[0]['upload_path']:'';
+				}
+				$video_list[$key]['upload_path'] = count($upload_list)>0?$upload_list[0]['upload_path']:'';
+				
+			}
+		}
+		return $video_list;
+	}
+
+	/**
+	 * 走势
+	 */
+
+	private function getTrends($trend_list) {
+		$model_upload = Model('upload');
+		if (count($trend_list)>0) {
+			foreach ($trend_list as $key => $trend_info) {
+				$condition1['upload_type'] = '6';
+				$condition1['item_id'] = $trend_info['id'];
+				$upload_list = $model_upload->getUploadList($condition1);
+				if (is_array($upload_list)){
+					foreach ($upload_list as $k => $v){
+						$upload_list[$k]['upload_path'] = UPLOAD_SITE_URL.'/'.ATTACH_TREND.'/'.$upload_list[$k]['file_name'];
+					}
+				}
+				$trend_list[$key]['upload_path'] = count($upload_list)>0?$upload_list[0]['upload_path']:'';
+			}
+		}
+		return $trend_list;
+	}
+	
 }
