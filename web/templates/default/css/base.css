@@ -564,3 +564,45 @@
 	font-size: 12px;
 	line-height: 18px;
 }
+
+.spread{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+.spread .spread_img{ 
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background: url(../images/spread.jpg) center center no-repeat; 
+	background-size:auto 100% ; 
+}
+.spread span{
+	position: absolute;
+	top: 10px; 
+	right: 10px;
+	z-index: 2;
+	font-size: 24px;
+	line-height: 50px;
+	color: #fff;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 100%;
+	background: rgba(0,0,0,0.5);
+	text-indent: 0;
+	cursor: pointer;
+}
+.spread .maskbg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+}

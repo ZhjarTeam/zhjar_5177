@@ -11,6 +11,11 @@
 <link href="<?php echo WEB_TEMPLATES_URL;?>/css/base.css?v=20160807" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<div class="spread">
+  <div class="spread_img"></div>
+  <span id="close_spread">X</span>
+  <div class="maskbg"></div>
+</div>
 <div class="head">
   <a class="logo" href="<?php echo WEB_SITE_URL;?>"><img src="<?php echo $output['list_setting']['site_logo']?>" alt="<?php echo $output['seo']['title']?>"></a>
   <form class="search_bar" method="get" action="http://www.baidu.com/s" target="_blank">
@@ -648,6 +653,9 @@
 <script src="<?php echo WEB_TEMPLATES_URL;?>/js/Slideimg.js"></script>
 <script src="<?php echo WEB_TEMPLATES_URL;?>/js/setcookie.js"></script>
 <script>
+  $('#close_spread').click(function(){
+    $('.spread').hide();
+  });
   //幻灯片
   $("#home-focus").slideimg(5000);//参数是切换时间
   $("#side-focus").slideimg(5000);
