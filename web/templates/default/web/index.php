@@ -108,7 +108,7 @@
       </div>
       <div class="trend-box" style="display:none">
         <div class="trend-list">
-          <h3>体彩左</h3>
+          <h3>体彩</h3>
           <a><img src="<?php echo $output['trend_list_tc_left'][0]['upload_path']?>"></a>
           <div>
             <?php if(!empty($output['trend_list_tc_left']) && is_array($output['trend_list_tc_left'])){ ?>
@@ -121,7 +121,7 @@
           </div>
         </div>
         <div class="trend-list">
-          <h3>体彩右</h3>
+          <h3>体彩</h3>
           <a><img src="<?php echo $output['trend_list_tc_right'][0]['upload_path']?>"></a>
           <div>
             <?php if(!empty($output['trend_list_tc_right']) && is_array($output['trend_list_tc_right'])){ ?>
@@ -136,7 +136,7 @@
       </div>
       <div class="trend-box" style="display:none">
         <div class="trend-list">
-          <h3>足彩左</h3>
+          <h3>足彩</h3>
           <a><img src="<?php echo $output['trend_list_zc_left'][0]['upload_path']?>"></a>
           <div>
             <?php if(!empty($output['trend_list_zc_left']) && is_array($output['trend_list_zc_left'])){ ?>
@@ -149,7 +149,7 @@
           </div>
         </div>
         <div class="trend-list">
-          <h3>足彩右</h3>
+          <h3>足彩</h3>
           <a><img src="<?php echo $output['trend_list_zc_right'][0]['upload_path']?>"></a>
           <div>
             <?php if(!empty($output['trend_list_zc_right']) && is_array($output['trend_list_zc_right'])){ ?>
@@ -176,7 +176,7 @@
         </li>
         <?php } ?>
         <?php } ?>
-        <img src="/web/templates/default/images/lottery.png">
+        <img src="<?php echo WEB_TEMPLATES_URL;?>/images/lottery.png">
       </ul>
       <!--<ul class="word-site clearfix">
         <?php if(!empty($output['hot_links_list']) && is_array($output['hot_links_list'])){ ?>
