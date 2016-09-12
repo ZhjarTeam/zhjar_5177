@@ -1,0 +1,18 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="彩票,福彩,福利彩票,双色球,3D,福彩3D,双色球开奖结果,3D开奖结果,刮刮乐,我要期期买" />
+<meta name="description" content="我要期期买导航网提供走势图，开奖结果，彩票开奖查询，为彩民推送有价值的、个性化的彩票信息，以此解决满足彩民的一切需求。" />
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<title>我要期期买</title>
+<link href="templates/default/css/reset.css?v=20160807" rel="stylesheet" type="text/css" />
+<link href="templates/default/css/base.css?v=20160807" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="spread">
+  <a href="index.php?act=index&op=index_home"><img src="templates/default/images/spread.jpg"></a>
+  <div class="maskbg"></div>
+</div>
+
+</body>
+</html>

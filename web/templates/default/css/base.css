@@ -566,20 +566,18 @@
 }
 
 .spread{
-	position: fixed;
+	position: relative;
 	width: 100%;
 	height: 100%;
-	z-index: 100;
+	text-align: center;
 }
-.spread .spread_img{ 
-	position: absolute;
-	top:0;
-	left: 0;
-	z-index: 1;
-	width: 100%;
-	height: 100%;
-	background: url(../images/spread.jpg) center center no-repeat; 
-	background-size:auto 100% ; 
+.spread a{
+	position: relative;
+	z-index: 3;
+}
+.spread a img{
+	max-width: 100%;
+	max-height: 100%;
 }
 .spread span{
 	position: absolute;
