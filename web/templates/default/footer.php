@@ -8,5 +8,5 @@
     <?php } ?>
     <?php } ?>
   </p>
-  <p><?php echo $output['list_setting']['icp_number']?>&nbsp;&nbsp;<?php echo $output['list_setting']['statistics_code']?></p>
+  <p><?php echo $output['list_setting']['icp_number']?></p>
 </div>
