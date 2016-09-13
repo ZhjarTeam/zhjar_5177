@@ -15,6 +15,7 @@ use Zhjar\Tpl;
 defined('InShopNC') or exit('Access Invalid!');
 class indexControl extends BaseHomeControl{
 	public function indexOp(){
+		Tpl::setLayout('null_layout');
 		Tpl::showpage('load');
 	}
 	public function index_homeOp(){
