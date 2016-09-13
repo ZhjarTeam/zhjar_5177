@@ -8,6 +8,7 @@
 <title><?php echo $output['news_info']['title']?></title>
 <link href="<?php echo WEB_TEMPLATES_URL;?>/css/reset.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo WEB_TEMPLATES_URL;?>/css/other.css" rel="stylesheet" type="text/css" />
+<?php include template('layout/baiduTj');?>
 </head>
 <body>
 <div class="head">
