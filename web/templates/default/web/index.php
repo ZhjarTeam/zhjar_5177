@@ -9,6 +9,7 @@
 <title><?php echo $output['seo']['title']?></title>
 <link href="<?php echo WEB_TEMPLATES_URL;?>/css/reset.css?v=20160807" rel="stylesheet" type="text/css" />
 <link href="<?php echo WEB_TEMPLATES_URL;?>/css/base.css?v=20160807" rel="stylesheet" type="text/css" />
+<?php include template('layout/baiduTj');?>
 </head>
 <body>
 <div class="spread">
